@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #9f9ece;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  height: 100%;
+  height: 110vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.heading {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.active {
+  background-color: #b6b6df;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  width: 20rem;
+  background-color: #b6b6df;
+}
+button {
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 5rem;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bookHeading {
+  font-family: "Roboto Mono", monospace;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.category-item {
+  border: 2px solid black;
+  width: 60%;
+  max-width: 80%;
+  border-radius: 10px;
+  width: 20rem;
+  background-color: #b6b6df;
+}
+.bookName {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.bookAuthor {
+  margin-bottom: 2rem;
+}
