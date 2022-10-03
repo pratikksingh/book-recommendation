@@ -12,7 +12,7 @@
   justify-content: top;
   align-items: center;
   height: 100%;
-  height: 110vh;
+  height: 150vh;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -75,4 +75,11 @@ button {
 }
 .bookAuthor {
   margin-bottom: 2rem;
+}
+.bookDescription {
+  margin-bottom: 2rem;
+}
+.bookDetails {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
